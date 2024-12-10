@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-10T12:44:46 IST" name="Suite" finished-at="2024-12-10T12:45:02 IST" duration-ms="15320">
+    <groups>
+    </groups>
+    <test started-at="2024-12-10T12:44:46 IST" name="Test" finished-at="2024-12-10T12:45:02 IST" duration-ms="15320">
+      <class name="testScript.LoginTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@6e9175d8]" started-at="2024-12-10T12:44:46 IST" name="initializeBrowser" finished-at="2024-12-10T12:44:50 IST" duration-ms="3697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="validateTheUserIsNotAbleToLoginUsingInvalidCredentials()[pri:0, instance:testScript.LoginTest@6e9175d8]" started-at="2024-12-10T12:44:50 IST" name="validateTheUserIsNotAbleToLoginUsingInvalidCredentials" finished-at="2024-12-10T12:44:52 IST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheUserIsNotAbleToLoginUsingInvalidCredentials -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testScript.LoginTest@6e9175d8]" started-at="2024-12-10T12:44:52 IST" name="browserQuit" finished-at="2024-12-10T12:44:52 IST" duration-ms="326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTheUserIsNotAbleToLoginUsingInvalidCredentials status=SUCCESS method=LoginTest.validateTheUserIsNotAbleToLoginUsingInvalidCredentials()[pri:0, instance:testScript.LoginTest@6e9175d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@6e9175d8]" started-at="2024-12-10T12:44:52 IST" name="initializeBrowser" finished-at="2024-12-10T12:44:55 IST" duration-ms="2669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsNotAbleToLoginWithCorrectUsernameAndIncorrectPassword()[pri:0, instance:testScript.LoginTest@6e9175d8]" started-at="2024-12-10T12:44:55 IST" name="verifyTheUserIsNotAbleToLoginWithCorrectUsernameAndIncorrectPassword" finished-at="2024-12-10T12:44:55 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsNotAbleToLoginWithCorrectUsernameAndIncorrectPassword -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testScript.LoginTest@6e9175d8]" started-at="2024-12-10T12:44:55 IST" name="browserQuit" finished-at="2024-12-10T12:44:56 IST" duration-ms="433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheUserIsNotAbleToLoginWithCorrectUsernameAndIncorrectPassword status=SUCCESS method=LoginTest.verifyTheUserIsNotAbleToLoginWithCorrectUsernameAndIncorrectPassword()[pri:0, instance:testScript.LoginTest@6e9175d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@6e9175d8]" started-at="2024-12-10T12:44:56 IST" name="initializeBrowser" finished-at="2024-12-10T12:44:59 IST" duration-ms="2852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTheUserIsNotAbleToLoginWithIncorrectUsernameAndCorrectPassword()[pri:0, instance:testScript.LoginTest@6e9175d8]" started-at="2024-12-10T12:44:59 IST" name="verifyTheUserIsNotAbleToLoginWithIncorrectUsernameAndCorrectPassword" finished-at="2024-12-10T12:45:00 IST" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsNotAbleToLoginWithIncorrectUsernameAndCorrectPassword -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testScript.LoginTest@6e9175d8]" started-at="2024-12-10T12:45:00 IST" name="browserQuit" finished-at="2024-12-10T12:45:02 IST" duration-ms="2068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheUserIsNotAbleToLoginWithIncorrectUsernameAndCorrectPassword status=SUCCESS method=LoginTest.verifyTheUserIsNotAbleToLoginWithIncorrectUsernameAndCorrectPassword()[pri:0, instance:testScript.LoginTest@6e9175d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- testScript.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
